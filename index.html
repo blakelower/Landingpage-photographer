@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop() > 100){
+                    $(".topbar").css({"opacity":"0"})
+                }
+                else{
+                    $(".topbar").css({"opacity":"1"})
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+    
+    <div>
+        <nav class="nav">
+            <a href="work">Work</a>
+            <a href="about">About</a>
+            <a href="contact">Contact</a>
+        </nav>
+    </div>
+    <div class="topbar">
+    <h1 class="topbar">Blake</h1>
+    <h1 class="lower">Lower</h1>
+    <section></section>
+    </div>
+    <div class="landing">
+        <div class="intro">
+            <h1 class="key">Beauty</h1>
+        </div>
+    </div>
+    <div class="distortion"></div>
+     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r118/three.min.js"></script>
+    <script src="./hover.js"></script>
+    <script src="./app.js"></script>
+    </div>
+
+
+     </html>
+</body>
+
